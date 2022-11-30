@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsonresume-theme-mooser": "^0.2.3",
+    "resumed": "^1.0.3"
+  }
+}

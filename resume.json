@@ -1,0 +1,256 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Ramus ASSOGBA",
+    "label": "Frontend Web developer ( Js, React, Vue)",
+    "image": "",
+    "email": "ramusassogba@gmail.com",
+    "phone": "",
+    "url": "",
+    "summary": "",
+    "location": {
+      "countryCode": "FR",
+      "address": "France"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "ramus-assogba-2b4b79180",
+        "url": "https://www.linkedin.com/in/ramus-assogba-2b4b79180/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "SHAREMAT",
+      "position": "Frontend Web Developer",
+      "startDate": "2021-08-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/10952229",
+      "location": "Saint-Herblain, Pays de la Loire, France"
+    },
+    {
+      "name": "ONG De Chez Nous ",
+      "position": "Vice président",
+      "startDate": "2020-01-31",
+      "endDate": "",
+      "highlights": [],
+      "summary": null,
+      "url": "",
+      "location": "Abomey-Calavi, Bénin"
+    },
+    {
+      "name": "La Passerelle",
+      "position": "Développeur chef de projet",
+      "startDate": "2020-11-30",
+      "endDate": "2021-01-31",
+      "highlights": [],
+      "summary": "Mise en place du site web de l’entreprise",
+      "url": "",
+      "location": "Meaux, Île-de-France, France"
+    },
+    {
+      "name": "Quadra Diffusion",
+      "position": "Développeur web front-end",
+      "startDate": "2018-04-30",
+      "endDate": "2019-08-31",
+      "highlights": [],
+      "summary": null,
+      "url": "https://www.linkedin.com/company/3221078",
+      "location": null
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Association EMMAÜS Solidarité ",
+      "position": "Manœuvre",
+      "startDate": "2020-12-31",
+      "endDate": "",
+      "summary": "Nous donnons de notre temps dès que l’occasion se présente pour aider à la récupération d’objets type mobilier afin d’en débarrasser ceux qui ne ressentent plus le besoin de le posséder. Ensuite nous leurs redonnons une nouvelle jeunesse si besoin est afin de les remettre sur le marché à prix symbolique. Cela s’inscrit à la fois dans une démarche éco responsable mais aussi dans une dynamique de mise en place d’une économie circulaire dans la vision de la loi anti gaspillage. \nMais aussi et par dessus tous cela m’ois permet de venir en aide aux compagnons pour pérenniser l’héritage de l’abbé Pierre fondateur de cette association.",
+      "highlights": [],
+      "url": "https://www.linkedin.com/company/3272543"
+    }
+  ],
+  "education": [
+    {
+      "institution": "ECV Digital",
+      "area": "Développement web",
+      "studyType": "Master",
+      "startDate": "2021-12-31",
+      "endDate": "2023-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Université de Poitiers",
+      "area": "Mathématiques et informatique",
+      "studyType": "Licence",
+      "startDate": "2019-12-31",
+      "endDate": "2021-12-31",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "GROUPE CERCO",
+      "area": "Informatique industrielle",
+      "studyType": "",
+      "startDate": "2016-12-31",
+      "endDate": "2019-12-31",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Concevez votre site web avec PHP et MySQL",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-12-31"
+    },
+    {
+      "name": "Construisez un site web à l’aide du Framework Symfony 5",
+      "issuer": "OpenClassrooms",
+      "startDate": "2021-03-31"
+    },
+    {
+      "name": "Gérez votre code avec Git et GitHub",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-09-30"
+    },
+    {
+      "name": "Apprenez à coder avec JavaScript",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    },
+    {
+      "name": "Créez une application web avec Vue.js",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-09-30"
+    },
+    {
+      "name": "Parcours Intégrateur Web",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    },
+    {
+      "name": "Prenez en main Bootstrap",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    },
+    {
+      "name": "Design Thinking",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    },
+    {
+      "name": "Comprendre le Web",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    },
+    {
+      "name": "Réalisez des sites modernes et beaux grâce à WordPress",
+      "issuer": "OpenClassrooms",
+      "startDate": "2020-02-28"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Programmation web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet web",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Gestion de projet",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Java",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "SQL",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "HTML5",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "C (langage de programmation)",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Adobe Creative Suite",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "CSS",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Marketing numérique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "JavaScript",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Design graphique",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Node.js",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Vue.js",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "fr",
+      "fluency": "Native Speaker"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "La Passerelle",
+      "startDate": "",
+      "summary": "Mise en place d’un site sur mesure en pour la société. Page de présentation des produits et services avec gestion de leurs stocks. Page de présentation de la structure. Page de prise de contact et FAQ. \n\nDashboard sur mesure contenant la gestion de toutes les pages du site et une zone de gestion des FAQ et des messages laissés. \n\nLe front end à été mis en place en VueJs 3 et le backend en NodeJs avec une base de donne PostgreSQL.",
+      "url": "https://saslapasserelle.com"
+    }
+  ],
+  "meta": {
+    "version": "v1.0.0",
+    "canonical": "https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json"
+  }
+}

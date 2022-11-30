@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="Ramus ASSOGBA's Resume">
+    <meta name="keywords" content="Resume, CV, Job History, Contact">
+    <meta name="author" content="Santiago Espinosa Mooser">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ramus ASSOGBA's Resume Website</title>
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" rel="stylesheet">
+    <style type="text/css">
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800);
+@charset "utf-8";
+@-webkit-viewport   { width: device-width; }
+@-moz-viewport      { width: device-width; }
+@-ms-viewport       { width: device-width; }
+@-o-viewport        { width: device-width; }
+@viewport           { width: device-width; }
+
+body{
+  font-family: 'Open Sans', Arial, Tahoma;
+  font-weight: 400;
+  color: #363636;
+  background: #334960;
+  font-size: 1.6em;
+  overflow:auto
+}
+blockquote {
+  font-size: 1.2em;
+}
+.container{
+  margin-top: 80px;
+  margin-bottom: 15px;
+  background: #fff;
+  max-width: 100%;
+  min-width: 15%;
+  border-radius: 25px;
+  min-width: auto;
+  margin-right: auto;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+#content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#left-column {
+  padding-left: 3%;
+  padding-right: 1%;
+  max-width: 100%;
+  min-width: 300;
+}
+#right-column {
+  padding-left: 1%;
+  padding-right: 3%;
+  max-width: 100%;
+  min-width: 30%;
+}
+
+#references {
+  word-wrap: break-word;
+}
+#reference {
+  text-align: left;
+}
+#photo-header{
+  margin-top: -75px;
+}
+#photo{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 5px;
+  background: #334960;
+  display: inline-block;
+}
+#photo img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#text-header h1{
+  margin: 0;
+  padding: 0;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+#text-header h1::first-line{
+  font-size: 1.5em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+#text-header h1 span{
+  color: #334960;
+  opacity: 0.7;
+}
+#text-header h1 sup{
+  opacity: 0.5;
+}
+#text-header:after{
+  width: 100%;
+  height: 3px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 15px;
+  content: '';
+  display: block;
+}
+#textbox {
+  display:flex;
+  flex-flow:row wrap;
+}
+
+.alignleft {
+width:50%;
+text-align:left;
+word-wrap: break-word;
+}
+.alignright {
+width:50%;
+text-align:right;
+word-wrap: break-word;
+}
+
+
+#content{
+  display: flex;
+  flex-wrap: wrap;
+}
+#left-column{
+  padding-left: 2%;
+  padding-right: 1.5%;
+}
+#right-column{
+  padding-right: 2%;
+  padding-left: 1.5%;
+}
+.box{
+  padding-bottom: 10px;
+  text-align: justify;
+  word-wrap: break-word;
+}
+.box h2{
+  color: #227c74;
+  font-size: 1.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 20px 20px 20px 0;
+}
+
+#awards,
+#education{
+  margin-top: 10px;
+  margin-bottom: 0;
+  position: relative;
+  padding: 1em 0;
+  list-style: none;
+}
+#awards li,
+#education li{
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  float: left;
+}
+#awards .year,
+#education .year{
+opacity: 0.7;
+margin-top: 5px;
+margin-bottom: 10px;
+}
+#awards .description,
+#education .description{
+  border-radius: 15px;
+  display: inline-block;
+  background: #eee;
+  margin-bottom: 10px;
+  position: relative;
+  padding: 10px;
+}
+#awards .description h3,
+#education .description h3{
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+}
+#awards .description p,
+#education .description p{
+  margin-top: 5px;
+  padding: 0;
+}
+
+.row {
+  margin-right: 0;
+  margin-left: 0;
+  page-break-inside: avoid;
+}
+
+.job{
+  margin-bottom: 15px;
+  page-break-inside: avoid;
+}
+.job .details {
+  padding: 10px;
+  background: #eee;
+  border-radius: 15px 15px 0 0;
+}
+.job .where{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .year{
+  opacity: 0.7;
+}
+.job .profession{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.job .address{
+  word-break: break-all;
+  text-align: left;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.job .description{
+  line-height: 1.5em;
+}
+.job .highlights{
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.job .job-details {
+  width: 100%;
+  border: 1px solid #eee;
+  padding-top: 10px;
+  border-width: 0px 1px 1px 1px;
+  border-radius: 0 0 15px 15px;
+
+}
+.publication {
+  margin-bottom: 0;
+}
+.publication .name{
+  font-size: 1em;
+  font-weight: bold;
+}
+.publication .year{
+    opacity: 0.7;
+}
+.publication p{
+  margin: 0;
+  padding-top: 10px;
+}
+
+.contact-item{
+  width: 100%;
+  float: left;
+  margin: 4px;
+}
+.contact-item .icon{
+  padding: 10px;
+  color: #32475c;
+  background: #eee;
+}
+.contact-item:last-child .icon{
+  border-bottom: none;
+}
+.contact-item .title{
+  width: 80%;
+  width: calc(100% - 55px);
+  font-weight: 700;
+  opacity: 0.9;
+}
+.contact-item .title.only{
+  margin-top: 10px;
+}
+.contact-item .description{
+  width: 80%;
+  width: calc(100% - 55px);
+  color: #334960;
+}
+
+.item-interests,
+.item-skills{
+  height: 30px;
+  color: #334960;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+.interest,
+.skill{
+  color: #fff;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  background: #32475c;
+  position: relative;
+  font-size: .85em;
+}
+.skill-level {
+  background-color: #227c74;
+  border-radius: 4px;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: .75em;
+  position: absolute;
+  margin: 1px 10px;
+}
+
+#languages{
+  min-width: max-content
+}
+
+#language-skills .skill{
+  margin: 10px 0;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+    </style>
+    <style type="text/css" media="print">
+    body {
+  font-size: .95em;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+a[href]:after {
+  content: none !important;
+}
+
+#photo{
+  display: none;
+}
+
+.box {
+  margin-bottom: -10px;
+}
+
+blockquote,
+#education,
+#awards,
+.contact-item,
+.publication,
+.skills,
+.interests {
+  page-break-inside: avoid;
+}
+
+.col-sm-5{
+  width: 40%;
+  padding: 0 15px;
+}
+
+.col-sm-7{
+  width: 60%;
+  padding: 0 15px;
+
+  padding-left: 30px;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.skills .col-sm-offset-1,
+.interests .col-sm-offset-1{
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+#education {
+  margin: 0;
+  margin-bottom: -20px;
+}
+#awards:before,
+#education:before {
+  background: none;
+}
+
+#awards .description,
+#education .description,
+.job .details {
+  border: 1px solid #eee;
+}
+.publication,
+.publication .panel-heading,
+.publication .name{
+  margin: 0;
+  padding: 0 5px;
+  border: none;
+}
+.publication .panel-body {
+  padding: 0 10px;
+  margin: 0;
+}
+
+.badge {
+  margin: 0;
+}
+
+.list-group-item{
+  border: none;
+  margin: 0;
+  padding: 5px 15px;
+}
+.list-group-item:after{
+  content: '';
+  position: absolute;
+  top: 8px;
+  right: 0;
+  left: -1px;
+  height: 0;
+  width: 0;
+  border: solid transparent;
+  border-right-color: #999;
+  border-width: 4px;
+  pointer-events: none;
+ }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div id="photo-header" class="text-center">
+            <!-- PHOTO (AVATAR) -->
+            <div id="photo">
+              <img src="&#x2F;&#x2F;www.gravatar.com&#x2F;avatar&#x2F;c8013dd3a5cacc74b0d1953a32d299de?s&#x3D;200&amp;r&#x3D;pg&amp;d&#x3D;mm" alt="avatar">
+            </div>
+            <div id="text-header" >
+              <h1>Ramus ASSOGBA<br><span>Frontend Web developer ( Js, React, Vue)</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="content">
+        <div class="col-xs-12 col-sm-8" id="left-column">
+          <!-- WORK EXPERIENCE -->
+          <div class="box">
+            <h2><i class= "fas fa-suitcase ico"></i> Work Experience</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">SHAREMAT</p>
+                      <p class="alignright">Saint-Herblain, Pays de la Loire, France</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="address alignleft">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;10952229" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;10952229</a>
+                      </div>
+                      <div class="year alignright">Aug 2021 – Present</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Frontend Web Developer</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">ONG De Chez Nous </p>
+                      <p class="alignright">Abomey-Calavi, Bénin</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Jan 2020 – Present</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Vice président</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">La Passerelle</p>
+                      <p class="alignright">Meaux, Île-de-France, France</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="year alignright">Nov 2020 – Jan 2021</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Développeur chef de projet</div>
+                    <div class="description">
+                      Mise en place du site web de l’entreprise
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where" id="textbox">
+                      <p class="alignleft">Quadra Diffusion</p>
+                    </div>
+                    <div class="when" id="textbox">
+                      <div class="address alignleft">
+                        <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;3221078" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;3221078</a>
+                      </div>
+                      <div class="year alignright">Apr 2018 – Aug 2019</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row" id="job-details">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Développeur web front-end</div>
+                    <div class="description">
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <!-- PROJECTS -->
+          <div class="box">
+            <h2><i class= "fas fa-code-branch ico"></i> Projects</h2>
+            <ul class="list-group">
+              <li class="list-group-item">
+                <div style="display: none;"></div>
+                <i class="fa " aria-hidden="true"></i> <span style="font-weight:bold">La Passerelle</span>:
+                <br>
+                
+              </li>
+            </ul>
+          </div>
+          <!-- VOLUNTEER -->
+          <div class="box">
+            <h2><i class= "fas fa-users ico"></i> Volunteer</h2>
+              <div class="job clearfix">
+                <div class="row">
+                  <div class="details">
+                    <div class="where">Association EMMAÜS Solidarité </div>
+                    <div class="address">
+                      <a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;3272543" target= "_blank"><i class="fas fa-globe ico"></i> https:&#x2F;&#x2F;www.linkedin.com&#x2F;company&#x2F;3272543</a>
+                    </div>
+                    <div class="year">Dec 2020 – Present</div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="job-details col-xs-11">
+                    <div class="profession">Manœuvre</div>
+                    <div class="description">
+                      Nous donnons de notre temps dès que l’occasion se présente pour aider à la récupération d’objets type mobilier afin d’en débarrasser ceux qui ne ressentent plus le besoin de le posséder. Ensuite nous leurs redonnons une nouvelle jeunesse si besoin est afin de les remettre sur le marché à prix symbolique. Cela s’inscrit à la fois dans une démarche éco responsable mais aussi dans une dynamique de mise en place d’une économie circulaire dans la vision de la loi anti gaspillage. 
+Mais aussi et par dessus tous cela m’ois permet de venir en aide aux compagnons pour pérenniser l’héritage de l’abbé Pierre fondateur de cette association.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4" id="right-column">
+          <!-- CONTACT -->
+          <div class="box clearfix">
+            <h2><i class="fas fa-bullseye ico"></i> Contact</h2>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-map-marker fa-fw"></span></div>
+              <div class="title pull-right">France</div>
+              <div class="title  pull-right"> FR</div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fas fa-envelope fa-fw"></span></div>
+              <div class="title only pull-right"><a href="mailto:ramusassogba@gmail.com" target="_blank">ramusassogba@gmail.com</a></div>
+            </div>
+            <div class="contact-item">
+              <div class="icon pull-left text-center"><span class="fab fa-linkedin fa-fw"></span></div>
+              <div class="title pull-right">LinkedIn</div>
+              <div class="description pull-right"><a href="https:&#x2F;&#x2F;www.linkedin.com&#x2F;in&#x2F;ramus-assogba-2b4b79180&#x2F;" target="_blank">ramus-assogba-2b4b79180</a></div>
+            </div>
+          </div>
+          <!-- EDUCATION -->
+          <div class="box">
+            <h2><i class="fas fa-university ico"></i> Education</h2>
+            <ul id="education" class="clearfix">
+              <li>
+                <div class="description pull-right">
+                  <h3>ECV Digital</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Master</p>
+                  <p>Développement web</p>
+                  <div class="year">2021 - 2023</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>Université de Poitiers</h3>
+                  <div class="where"></div>
+                  <p><i class= "fas fa-graduation-cap ico"></i> Licence</p>
+                  <p>Mathématiques et informatique</p>
+                  <div class="year">2019 - 2021</div>
+                </div>
+              </li>
+              <li>
+                <div class="description pull-right">
+                  <h3>GROUPE CERCO</h3>
+                  <div class="where"></div>
+                  <div class="year">2016 - 2019</div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- SKILLS -->
+          <div class="box">
+            <h2><i class="fas fa-tasks ico"></i> Skills</h2>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Programmation web
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Design
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Gestion de projet web
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Gestion de projet
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Java
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  SQL
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  HTML5
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  C (langage de programmation)
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Adobe Creative Suite
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  CSS
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Marketing numérique
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  JavaScript
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Design graphique
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Node.js
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+            <div class="skills clearfix">
+              <div class="item-skills">
+                  Vue.js
+              </div>
+              <div class="col-sm-12 clearfix">
+              </div>
+            </div>
+          </div>
+          <!-- LANGUAGES -->
+          <div class="box" id="languages">
+            <h2><i class="fas fa-language ico"></i> Languages</h2>
+            <ul class="list-group">
+              <li class=" list-group-item">fr  <span class="skill badge pull-right">Native Speaker</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
